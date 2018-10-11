@@ -1,0 +1,21 @@
+{
+  "name": "img-optimizations",
+  "version": "1.0.0",
+  "description": "Image optimizations",
+  "main": "index.js",
+  "scripts": {
+    "optimize:png": "gulp optimize-png",
+    "optimize:jpg": "gulp optimize-jpg"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-cli": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.1.0",
+    "imagemin-guetzli": "^1.0.0",
+    "imagemin-mozjpeg": "^7.0.0",
+    "imagemin-pngquant": "^6.0.0"
+  }
+}
