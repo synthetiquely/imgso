@@ -19,3 +19,12 @@ npm run optimize:jpg
 
 // The script will generate optimized versions of images in the 'dist' folder.
 ```
+
+Please see 'gulpfile.js' for more details.
+
+## Algorithms used:
+
+- mozjpeg and guetzli to optimize .jpg files
+- pngquant to optimize .png files
+
+See more dependencies in the 'package.json' file.
